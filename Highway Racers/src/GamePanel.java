@@ -690,7 +690,7 @@ public class GamePanel extends JPanel implements Runnable, KeyListener {
 
 	// run() method is what makes the game continue running without end. It calls
 	// other methods to move objects, check for collision, and update the screen
-	//Source: Mr.anthony comp sci teacher
+	//Source: The man, the myth, the legend, Mr.anthony 
 	public void run() {
 		// the CPU runs the game code too quickly - we need to slow it down! The
 		// following lines of code "force" the computer to get stuck in a loop for short
