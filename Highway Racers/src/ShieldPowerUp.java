@@ -6,7 +6,6 @@ import java.awt.*;
 
 import javax.swing.*;
 
-import java.util.*;
 
 public class ShieldPowerUp extends Rectangle {
 
@@ -32,13 +31,12 @@ public class ShieldPowerUp extends Rectangle {
 		shieldY = y+= 6;
 		shieldDetector.x = shieldX;
 		shieldDetector.y = shieldY;
-
-
-
+		
+	
 	}
 
 	public void draw(Graphics g) {
-		g.drawImage(shield, shieldX, shieldY, SHIELD_WIDTH, SHIELD_HEIGHT, null);
-	}
+
+		g.drawImage(shield, shieldX, shieldY, SHIELD_WIDTH, SHIELD_HEIGHT, null); }
 
 }
